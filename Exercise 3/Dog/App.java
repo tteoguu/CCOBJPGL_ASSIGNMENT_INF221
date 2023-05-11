@@ -8,6 +8,6 @@ public class App {
         System.out.println(myPet.Aqui);
         myPet.bark();
         System.out.println("She has a " + myPet.eyeColor + " eyes");
-        System.out.println("She has " + myPet.height + " tall.");
+        System.out.println("She is " + myPet.height + " tall.");
     }
 }
