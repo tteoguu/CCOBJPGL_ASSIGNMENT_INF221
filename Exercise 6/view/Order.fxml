@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ikea.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ikea.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ikea.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-10.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/ikea.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="190.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/ikea.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="390.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/ikea.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="243.0" layoutY="77.0" text="RECEIPT:">
+               <font>
+                  <Font name="Serif Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="65.0" layoutY="261.0" prefHeight="28.0" prefWidth="59.0" text="Total:">
+               <font>
+                  <Font name="Serif Regular" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="name1" layoutX="46.0" layoutY="118.0" prefHeight="28.0" prefWidth="211.0" text="label" visible="false">
+               <font>
+                  <Font name="Serif Regular" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="name2" layoutX="47.0" layoutY="152.0" prefHeight="28.0" prefWidth="200.0" text="label" visible="false">
+               <font>
+                  <Font name="Serif Regular" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="name3" layoutX="48.0" layoutY="186.0" prefHeight="28.0" prefWidth="200.0" text="label" visible="false">
+               <font>
+                  <Font name="Serif Regular" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="qty1" layoutX="269.0" layoutY="118.0" prefHeight="28.0" prefWidth="43.0" text="label" visible="false">
+               <font>
+                  <Font name="Serif Regular" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="qty2" layoutX="269.0" layoutY="152.0" prefHeight="28.0" prefWidth="43.0" text="label" visible="false">
+               <font>
+                  <Font name="Serif Regular" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="qty3" layoutX="269.0" layoutY="186.0" prefHeight="28.0" prefWidth="43.0" text="label" visible="false">
+               <font>
+                  <Font name="Serif Regular" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="lineAmount1" layoutX="461.0" layoutY="118.0" prefHeight="28.0" prefWidth="59.0" text="label" visible="false">
+               <font>
+                  <Font name="Serif Regular" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="lineAmount2" layoutX="461.0" layoutY="152.0" prefHeight="28.0" prefWidth="59.0" text="label" visible="false">
+               <font>
+                  <Font name="Serif Regular" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="lineAmount3" layoutX="461.0" layoutY="186.0" prefHeight="28.0" prefWidth="59.0" text="label" visible="false">
+               <font>
+                  <Font name="Serif Regular" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="Total" layoutX="461.0" layoutY="261.0" prefHeight="28.0" prefWidth="71.0" text="label">
+               <font>
+                  <Font name="Serif Regular" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
